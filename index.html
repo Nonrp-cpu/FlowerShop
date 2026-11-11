@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Bloomora — авторские букеты, цветочные композиции и быстрая доставка.">
+<meta name="theme-color" content="#12110f">
+<meta property="og:title" content="Bloomora — цветы с душой">
+<meta property="og:description" content="Авторские букеты и быстрая доставка. Подарите красоту, которая говорит больше, чем слова.">
+<meta property="og:type" content="website">
+<title>Bloomora — цветы с душой</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="heart" viewBox="0 0 24 24"><path d="M12 20.5s-8-4.9-8-11A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 8 2.5c0 6.1-8 11-8 11z"/></symbol>
+<symbol id="gem" viewBox="0 0 24 24"><path d="M7 4h10l4 5-9 11L3 9zM3 9h18M10 4 8 9l4 11 4-11-2-5"/></symbol>
+<symbol id="truck" viewBox="0 0 24 24"><path d="M2 6h11v11H2zM13 10h5l3 3v4h-8"/><circle cx="6.5" cy="18" r="1.8"/><circle cx="17.5" cy="18" r="1.8"/></symbol>
+<symbol id="arr" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="dn" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></symbol>
+<symbol id="up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+<symbol id="chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></symbol>
+<symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="logo" viewBox="0 0 24 24"><g fill="none"><ellipse cx="12" cy="7" rx="2.6" ry="4.2"/><ellipse cx="12" cy="7" rx="2.6" ry="4.2" transform="rotate(72 12 11)"/><ellipse cx="12" cy="7" rx="2.6" ry="4.2" transform="rotate(144 12 11)"/><ellipse cx="12" cy="7" rx="2.6" ry="4.2" transform="rotate(216 12 11)"/><ellipse cx="12" cy="7" rx="2.6" ry="4.2" transform="rotate(288 12 11)"/><path d="M12 14v8M12 19c-2-.2-3.500-1.200-4-3 2 0 3.500.8 4 3zM12 18c2-.2 3.500-1.200 4-3-2 0-3.500.8-4 3z"/></g></symbol>
+</defs></svg>
+<header><a class="logo" href="#top" aria-label="Bloomora"><svg class="i"><use href="#logo"/></svg><span><b>Bloomora</b><small>Цветы с душой</small></span></a>
+<nav id="nav"><a href="#catalog">Каталог <svg class="i"><use href="#chev"/></svg></a><a href="#about">О нас</a><a href="#delivery">Доставка</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a></nav>
+<div class="hr"><button class="ib" id="favBtn" aria-label="Избранное"><svg class="i"><use href="#heart"/></svg><span class="badge" id="favN">0</span></button><a class="btn p s" href="#contacts" data-ask>Уточнить детали</a><button class="ib burger" id="burger" aria-label="Меню"><svg class="i"><use href="#menu"/></svg></button></div></header>
+<main id="top">
+<section class="hero" style="padding-block:60px 120px"><div class="hero-img"><img src="/src/assets/hero.jpg" width="1804" height="1464" fetchpriority="high" alt="Букет из розовых роз и гортензии в прозрачной упаковке"></div>
+<div class="hc"><span class="pill rv"><svg class="i"><use href="#logo"/></svg>Свежие букеты • Быстрая доставка</span>
+<h1 class="rv">Создаём <em>эмоции</em><br>в каждом букете</h1><p class="sub rv">Подарите красоту, которая говорит больше, чем слова</p>
+<div class="acts rv"><a class="btn p" href="#catalog">Перейти в каталог <svg class="i"><use href="#arr"/></svg></a><a class="btn" href="#about">Узнать больше <svg class="i"><use href="#play"/></svg></a></div>
+<div class="perks rv"><div class="perk"><svg class="i"><use href="#gem"/></svg>Премиальное<br>качество</div><div class="perk"><svg class="i"><use href="#truck"/></svg>Быстрая<br>доставка</div><div class="perk"><svg class="i"><use href="#heart"/></svg>С заботой<br>о вас</div></div></div>
+<a class="down" href="#catalog" aria-label="Вниз"><svg class="i"><use href="#dn"/></svg></a></section>
+<section id="catalog"><div class="wrap"><div class="sh"><div><h2>Любимые композиции</h2><p class="lead">Примеры работ и ориентировочные цены. Состав и оттенки подберём под ваш повод.</p></div></div>
+<div class="flt"><button class="fl on" data-f="all">Все букеты</button><button class="fl" data-f="classic">Классика</button><button class="fl" data-f="author">Авторские</button><button class="fl" data-f="mono">Монобукеты</button><button class="fl" data-f="fav">Избранное</button></div>
+<div class="grid" id="grid"></div></div></section>
+<section id="about" class="alt"><div class="wrap about"><img loading="lazy" src="https://images.unsplash.com/photo-1457089328109-e5d9bd499191?auto=format&fit=crop&w=1100&q=85" alt="Флорист собирает букет"><div><h2>Создаём букеты с душой</h2><p>Цветы — способ передать чувства без лишних слов. Мы подбираем оттенки, фактуры и форму, чтобы каждая композиция выглядела цельно и естественно.</p>
+<div class="cols" style="grid-template-columns:1fr;margin-top:30px"><div><b>Свежесть</b><span>Внимательно выбираем цветы и следим за их состоянием.</span></div><div><b>Вкус</b><span>Сочетаем формы, оттенки и фактуры.</span></div><div><b>Забота</b><span>Подбираем букет под повод и бюджет.</span></div></div></div></div></section>
+<section id="delivery"><div class="wrap"><h2>Доставка</h2><p class="lead" style="margin-bottom:34px">Условия-заглушки: замените на реальные данные магазина.</p>
+<div class="cols"><div><b>По городу</b><span>Привезём букет в удобное для вас время, бережно упакованным.</span></div><div><b>Самовывоз</b><span>Заберите готовый букет в мастерской в часы работы.</span></div><div><b>К точному времени</b><span>Согласуем интервал с флористом при подтверждении заказа.</span></div></div></div></section>
+<section id="reviews" class="alt"><div class="wrap"><h2>Отзывы</h2><p class="lead" style="margin-bottom:34px">Примеры текста — замените на настоящие отзывы клиентов.</p>
+<div class="cols"><div><blockquote>«Букет приехал свежим и выглядел точно как на фото.»</blockquote><b style="font-size:20px;margin-top:12px">Анна</b></div><div><blockquote>«Помогли подобрать цветы под бюджет и повод. Спасибо!»</blockquote><b style="font-size:20px;margin-top:12px">Мария</b></div><div><blockquote>«Нежная палитра и аккуратная упаковка — получателю очень понравилось.»</blockquote><b style="font-size:20px;margin-top:12px">Игорь</b></div></div></div></section>
+<section class="contact" id="contacts"><h2>Давайте выберем ваши цветы</h2><p class="lead">Позвоните или напишите — расскажем о наличии и подберём композицию. Оплаты и заказа на сайте нет.</p>
+<div class="acts"><a class="btn p" href="tel:+70000000000">Позвонить в мастерскую</a><a class="btn" href="https://wa.me/70000000000" target="_blank" rel="noopener">Написать в WhatsApp</a></div></section>
+</main>
+<footer><span>© 2026 Bloomora · Цветы с душой</span><span>+7 (000) 000-00-00 · Ваш город · Ежедневно 9:00–21:00</span></footer>
+<button class="top" id="top2" aria-label="Наверх"><svg class="i"><use href="#up"/></svg></button>
+<div class="ov" id="modal"><div class="mb" role="dialog" aria-modal="true" aria-labelledby="mt"><button class="x" id="mx" aria-label="Закрыть">×</button><h3 id="mt">Уточнить детали</h3><p id="mtext">Оставьте контакт — перезвоним и ответим на вопросы.</p><input id="nm" placeholder="Ваше имя" autocomplete="name"><input id="ph" placeholder="Телефон" autocomplete="tel" inputmode="tel"><textarea id="msg" placeholder="Что хотите узнать?"></textarea><button class="btn p" id="send">Открыть WhatsApp</button></div></div>
+<div class="ov" id="dov" style="z-index:45;align-items:stretch;justify-content:flex-end;padding:0;background:rgba(0,0,0,.6)"></div>
+<aside class="dp" id="dp" aria-hidden="true" aria-label="Описание букета"><div class="dv"><img id="dimg" src="" alt=""><div id="dcap"></div></div>
+<div class="dc" id="dc"><button class="x dx" id="dx" aria-label="Закрыть" style="right:20px;top:18px;z-index:3">×</button><span class="cat" id="dcat"></span><h2 id="dtitle"></h2><b class="pr" id="dprice"></b><p id="dlead"></p>
+<nav class="toc" style="display:flex;position:sticky;border:0;border-bottom:1px solid var(--line);flex-direction:row;padding:14px 0;left:auto;right:auto"><a href="#d1">Состав</a><a href="#d2">Цвета</a><a href="#d3">Как собран</a><a href="#d4">Повод</a><a href="#d5">Уход</a></nav>
+<div class="ds" id="d1"><h3>Что входит в букет</h3><p id="dcomp"></p></div><div class="ds" id="d2"><h3>Оттенки и настроение</h3><p id="dpal"></p><div class="chips" id="dchips"></div></div><div class="ds" id="d3"><h3>Как устроена композиция</h3><p id="dlay"></p></div><div class="ds" id="d4"><h3>Кому и по какому поводу</h3><p id="docc"></p></div><div class="ds" id="d5"><h3>Как ухаживать</h3><p id="dcare"></p></div>
+<div class="acts"><button class="btn p s" id="dask">Уточнить наличие</button><button class="btn s" id="dback">Вернуться к каталогу</button></div></div></aside>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
