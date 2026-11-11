@@ -1,18 +1,4 @@
 [README.md](https://github.com/user-attachments/files/34699742/README.md)
-# Bloomora — сайт цветочного магазина
-
-Vite + GSAP (ScrollTrigger), чистые HTML/CSS/JS без лишних зависимостей.
-
-## Запуск
-```bash
-npm install
-npm run dev      # разработка, http://localhost:5173
-npm run build    # готовый сайт в dist/
-npm run preview  # проверить сборку локально
-```
-
-## Структура<div align="center">
-
 # Bloomora
 
 **A dark, elegant landing page and catalog for a flower shop.**
@@ -205,14 +191,8 @@ Run `npm run build` and upload the contents of `dist/` to any static hosting. Th
 
 ## Author
 
-**Your Name** — [GitHub](https://github.com/your-username) · [Email](mailto:you@example.com)
+**Your Name** — [GitHub](https://github.com/your-username)
 
-- `index.html` — разметка страницы
-- `src/main.js` — каталог, фильтры, избранное, панель букета, форма
-- `src/motion.js` — анимации (GSAP): появление первого экрана, параллакс, лепестки
-- `src/data/bouquets.js` — данные букетов (добавляйте новые сюда)
-- `src/styles/main.css` — стили и дизайн-токены (`:root`)
-- `src/assets/hero.jpg` — фото на главной
 
 ## Что заменить
 - **Фото на главной.** Сейчас это кадр, вырезанный из макета, оригинал был больше. Подставьте исходник в `src/assets/hero.jpg` (лучше от 2000 px по ширине, тёмный фон).
