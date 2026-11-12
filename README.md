@@ -237,7 +237,7 @@ No heavy frameworks on purpose: a single content page loads faster and is easier
 
 ## 👤 Author
 
-**Your Name** — [GitHub](https://github.com/YOUR-USERNAME) · [Email](mailto:you@example.com)
+**Nonrp-cpu** — [GitHub](https://github.com/Nonrp-cpu) 
 
 <div align="center">
 
