@@ -137,7 +137,7 @@ Edit `assets/js/data.js`. The key is the bouquet name:
 }
 ```
 
-Category names are filter keys and must match exactly.
+Category names are filter keys and must match exactly
 
 </details>
 
