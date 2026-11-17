@@ -4,7 +4,7 @@
 
 <br>
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-E58F98?style=for-the-badge&labelColor=12110F&logo=googlechrome&logoColor=white)]([https://nonrp-cpu.github.io/FlowerShop/])
+[![Live Demo](https://img.shields.io/badge/Live-Demo-E58F98?style=for-the-badge&labelColor=12110F&logo=googlechrome&logoColor=white)](https://nonrp-cpu.github.io/FlowerShop/)
 [![Deploy Guide](https://img.shields.io/badge/Deploy-Guide-E58F98?style=for-the-badge&labelColor=12110F&logo=github&logoColor=white)](#-deploy-in-3-minutes)
 [![Report a bug](https://img.shields.io/badge/Report-Issue-E58F98?style=for-the-badge&labelColor=12110F&logo=githubactions&logoColor=white)](https://github.com/YOUR-USERNAME/YOUR-REPO/issues)
 
