@@ -58,13 +58,6 @@ Static files only — upload to GitHub, enable Pages, done.
 | 🌙 **Reduced motion** | Animations switch off for users who prefer less movement |
 
 ## 🖼 Preview
-
-| Desktop | Catalog | Mobile |
-| :---: | :---: | :---: |
-| ![Desktop](docs/screenshots/desktop.png) | ![Catalog](docs/screenshots/catalog.png) | <img src="docs/screenshots/mobile.png" width="180" alt="Mobile"> |
-
-> 📌 These are placeholders. Take screenshots of the running site and save them over `docs/screenshots/desktop.png`, `catalog.png` and `mobile.png` (same names, no README changes needed).
-
 <details>
 <summary>Original design mockup</summary>
 
